@@ -6,7 +6,7 @@ import exe.command.LoginCommand;
 import exe.command.LoginFormCommand;
 import exe.command.LogoutCommand;
 import exe.command.MainCommand;
-import exe.command.MyFageCommand;
+import exe.command.MyPageCommand;
 import exe.command.PostCommand;
 import exe.command.PostInsertCommand;
 import exe.command.PostInsertFormCommand;
@@ -47,7 +47,7 @@ public class CommandFactory {
 
 		
 		//마이페이지
-		map.put("/Caffeine/myFage.do",				new MyFageCommand());	
+		map.put("/Caffeine/myPage.do",				new MyPageCommand());	
 		
 		//게시글
 		map.put("/Caffeine/postInsertForm.do",		new PostInsertFormCommand());

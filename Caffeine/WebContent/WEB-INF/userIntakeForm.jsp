@@ -19,7 +19,7 @@
 				</td>
 			</tr>
 		</table>
-					<button type="button" class="btn btn-info" value="Input button" onclick="location.href='myFage.do'">[BACK]</button> 
+					<button type="button" class="btn btn-info" value="Input button" onclick="location.href='myPage.do'">[BACK]</button> 
 
 			<script type="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 			<script type="text/javascript" src="js/bootstrap.js"></script>

@@ -20,24 +20,24 @@
 
 <script>
 	function UpdateAccount() {
-		var myFage = document.myFage;
-		myFage.method = "post";
-		myFage.action = "userUpdateForm.do";
-		myFage.submit();
+		var myPage = document.myPage;
+		myPage.method = "post";
+		myPage.action = "userUpdateForm.do";
+		myPage.submit();
 	}
 	
 	function CaffeineIdentity() {
-		var myFage = document.myFage;
-		myFage.method = "post";
-		myFage.action = "userIntakeForm.do";
-		myFage.submit();
+		var myPage = document.myPage;
+		myPage.method = "post";
+		myPage.action = "userIntakeForm.do";
+		myPage.submit();
 	}
 	
 	
 	</script>
 
 <body>
-		<form name="myFage">
+		<form name="myPage">
 				<p>
 					<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 					<button type="button" class="btn btn-info btn-lg" value="Input button" onclick="UpdateAccount()">[Modifying Information]</button>

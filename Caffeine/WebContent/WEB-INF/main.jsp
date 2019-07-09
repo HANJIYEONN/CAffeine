@@ -35,7 +35,7 @@
 				<li><a href="logout.do">LOGOUT</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="myFage.do">MY FAGE</a></li>
+				<li><a href="myPage.do">MY PAGE</a></li>
 			</ul>
 		</div>
 	</nav>

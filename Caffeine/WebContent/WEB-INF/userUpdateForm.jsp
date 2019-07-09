@@ -33,7 +33,7 @@
 						<div class = "form-group">
 							<input type="text" class="form-control" placeholder="ID" name="userID" maxlength="20">
 						</div>
-m-group">
+						<div class = "form-group">
 							<input type="password" class="form-control" placeholder="#" name="userPassword" maxlength="20">
 						</div>
 						<div class = "form-group">
@@ -47,7 +47,7 @@ m-group">
 						</div>
 						<input type="submit" class="btn btn-primary form-control" value="Modify">
 						<br/><br/>
-						<button type="button" class="btn btn-info form-control" value="Input button" onclick="location.href='myFage.do'">BACK</button>
+						<button type="button" class="btn btn-info form-control" value="Input button" onclick="location.href='myPage.do'">BACK</button>
 					</form>
 				</div>	 
 		</div>
