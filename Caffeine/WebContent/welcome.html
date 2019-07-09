@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+		<meta charset="UTF-8">
+		<title>C.A.ffeine</title>
+		
+	<style>
+		p {
+			text-align : center;
+			}
+	</style>
+	
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/site.css">
+</head>
+
+<script>
+	function login() {
+		var welForm = document.welForm;
+		welForm.method = "post";
+		welForm.action = "loginForm.do";
+		welForm.submit();
+	}
+	
+	function createAccount() {
+		var welForm = document.welForm;
+		welForm.method = "post";
+		welForm.action = "userInsertForm.do";
+		welForm.submit();
+	}
+	
+	function findAccount() {
+		var welForm = document.welForm;
+		welForm.method = "post";
+		welForm.action = "userFindForm.do";
+		welForm.submit();
+	}
+	</script>
+
+<body>
+
+	<form name="welForm">
+			<p>
+				<br/><br/><br/><br/><br/>
+				<button type="button" class="btn btn-warning btn-lg">C.A.ffeine</button>
+			
+				<br/><br/><br/><br/><br/><br/>
+				<button type="button" class="btn btn-info" value="Input button" onclick="login()"> [LOGIN]</button>
+				<button type="button" class="btn btn-info" value="Input button" onclick="createAccount()">[SIGN UP]</button>
+				<button type="button" class="btn btn-info" value="Input button" onclick="findAccount()">[FIND ACCOUNT]</button>
+	</form>
+	
+				<script type="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+				<script type="text/javascript" src="js/bootstrap.js"></script>
+			<p/>
+		
+</body>
+</html>
