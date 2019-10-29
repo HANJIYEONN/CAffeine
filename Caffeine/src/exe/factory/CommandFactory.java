@@ -16,7 +16,6 @@ import exe.command.UserInsertCommand;
 import exe.command.UserInsertFormCommand;
 import exe.command.UserIntakeCommand;
 import exe.command.UserIntakeFormCommand;
-import exe.command.UserUpdateFormCommand;
 import exe.common.Command;
 
 public class CommandFactory {
@@ -25,36 +24,32 @@ public class CommandFactory {
 	
 	private CommandFactory () {
 
-		//È¸¿ø °¡ÀÔ °ü·Ã
+		//íšŒì› ê°€ì… ê´€ë ¨
 		map.put("/Caffeine/userInsertForm.do",		new UserInsertFormCommand());
 		map.put("/Caffeine/userInsert.do",			new UserInsertCommand());
 		
-		//·Î±×ÀÎ °ü·Ã
+		//ë¡œê·¸ì¸ ê´€ë ¨
 		map.put("/Caffeine/loginForm.do",			new LoginFormCommand());
 		map.put("/Caffeine/login.do",				new LoginCommand());
 		map.put("/Caffeine/logout.do",				new LogoutCommand());
 		 
-		//È¸¿ø Ã£±â °ü·Ã
+		//íšŒì› ì°¾ê¸° ê´€ë ¨
 		map.put("/Caffeine/userFindForm.do",		new UserFindFormCommand());
 		map.put("/Caffeine/userFind.do",			new UserFindCommand());
 		
-		//È¸¿ø ¼öÁ¤ °ü·Ã
-		map.put("/Caffeine/userUpdateForm.do",		new UserUpdateFormCommand());
-//		map.put("/Caffeine/userUpdate.do",			new UserUpdateCommand());
-		
-		//¸ŞÀÎ
+		//ë©”ì¸
 		map.put("/Caffeine/main.do",				new MainCommand());
 
 		
-		//¸¶ÀÌÆäÀÌÁö
+		//ë§ˆì´í˜ì´ì§€
 		map.put("/Caffeine/myPage.do",				new MyPageCommand());	
 		
-		//°Ô½Ã±Û
+		//ê²Œì‹œê¸€
 		map.put("/Caffeine/postInsertForm.do",		new PostInsertFormCommand());
 		map.put("/Caffeine/postInsert.do",			new PostInsertCommand());	
 		map.put("/Caffeine/post.do",				new PostCommand());
 		
-		//À¯Àú Ä«ÆäÀÎ ¼·Ãë·®
+		//ìœ ì € ì¹´í˜ì¸ ì„­ì·¨ëŸ‰
 		map.put("/Caffeine/userIntakeForm.do",		new UserIntakeFormCommand());
 		map.put("/Caffeine/userIntake.do",			new UserIntakeCommand());
 		
