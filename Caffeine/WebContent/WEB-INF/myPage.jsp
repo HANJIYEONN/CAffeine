@@ -40,7 +40,6 @@
 		<form name="myPage">
 				<p>
 					<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-					<button type="button" class="btn btn-info btn-lg" value="Input button" onclick="UpdateAccount()">[Modifying Information]</button>
 					<button type="button" class="btn btn-info btn-lg" value="Input button" onclick="CaffeineIdentity()">[Check Caffeine]</button>
 					<br/><br/>
 					<button type="button" class="btn btn-primary " value="Input button" onclick="location.href='main.do'">BACK</button>
